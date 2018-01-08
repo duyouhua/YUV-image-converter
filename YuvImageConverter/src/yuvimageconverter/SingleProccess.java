@@ -501,8 +501,8 @@ public class SingleProccess extends javax.swing.JFrame {
                         byte[] uByte = new byte[size_half]; // for u
                         byte[] vByte = new byte[size_half]; // for v
 
-                        Arrays.fill(uByte, (byte) 0);
-                        Arrays.fill(vByte, (byte) 0);
+                        Arrays.fill(uByte, (byte) 128);
+                        Arrays.fill(vByte, (byte) 128);
 
                         byte[] uvBytes = combine(uByte, vByte);
                         byte[] final_bytes = combine(bytes, uvBytes);
